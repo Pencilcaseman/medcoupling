@@ -17,7 +17,7 @@
 # See http://www.salome-platform.org/ or email : webmaster.salome@opencascade.com
 #
 
-CMAKE_MINIMUM_REQUIRED(VERSION 2.8.11 FATAL_ERROR)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.15 FATAL_ERROR)
 
 # Project name
 # ============
