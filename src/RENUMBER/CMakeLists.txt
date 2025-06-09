@@ -24,7 +24,7 @@ IF(Boost_FOUND)
 ENDIF(Boost_FOUND)
 
 IF (NOT DEFINED MSVC)
-  ADD_DEFINITIONS(-Wsign-compare -Wconversion)
+  ADD_DEFINITIONS(-Wsign-compare )
 ENDIF()
 
 # Include directories

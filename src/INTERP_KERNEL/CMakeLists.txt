@@ -77,7 +77,7 @@ INCLUDE_DIRECTORIES(
   )
 
 IF (NOT DEFINED MSVC)
-  ADD_DEFINITIONS(-Wsign-compare -Wconversion)
+  ADD_DEFINITIONS(-Wsign-compare )
 ENDIF()
 
 SET(PLATFORM_MMAP)

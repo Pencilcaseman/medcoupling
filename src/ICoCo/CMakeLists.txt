@@ -19,7 +19,7 @@
 # Author : Adrien Bruneton (CEA/DES)
 
 IF (NOT DEFINED MSVC)
-  ADD_DEFINITIONS(-Wsign-compare -Wconversion)
+  ADD_DEFINITIONS(-Wsign-compare )
 ENDIF()
 
 IF(MEDCOUPLING_ENABLE_PYTHON)
